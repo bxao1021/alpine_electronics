@@ -88,10 +88,10 @@ def makeWebhookResult(data):
              ", the temperature is " + condition.get('temp') + " " + units.get('temperature' + \
 			 " <<< query=" + query + " | channel=" + channel + " | item=" + item + " | location=" + location + " | units=" + units + " | condition=" + condition )
 
-    print("Data:")
-    print(data)
-    print("Result:")
-    print(result)
+    # print("Data:")
+    # print(data)
+    # print("Result:")
+    # print(result)
     print("Response:")
     print(speech)
 
